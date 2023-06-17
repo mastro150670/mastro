@@ -10,13 +10,13 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #8fdbba;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Encode Sans', sans-serif;
 }
 
 a {
-  color: #007bff;
+  color: #4382c6;
   transition: 0.5s;
 }
 
@@ -173,9 +173,9 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url center bottom no-repeat;
   background-size: cover;
-  padding: 200px 0 120px 0;
+  padding: 300px 0 120px 0;
 }
 
 #intro .intro-img {
@@ -629,7 +629,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #c4a33f;
 }
 
 #services .description {
