@@ -158,8 +158,9 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: 5px 0;
+  max-height: 50px;
+  
 }
 
 .main-pages {
@@ -516,7 +517,7 @@ h6 {
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #fff;
+  background: #db6d32;
   width: 64px;
   height: 64px;
   display: -webkit-box;
@@ -538,17 +539,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
-  transition: all 0.3s ease-in-out;
+  border: 5px solid #ed0826;
+  transition: all 0.5s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #6ce245;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #6f0e8a;
 }
 
 #about .about-container .icon-box:hover .icon i {
