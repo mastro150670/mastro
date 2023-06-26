@@ -12,6 +12,7 @@
 body {
   background: #8fdbba;
   color: #444;
+  
   font-family: 'Encode Sans', sans-serif;
 }
 
@@ -182,6 +183,7 @@ h6 {
 #intro .intro-img {
   width: 50%;
   float: right;
+  
 }
 
 #intro .intro-info {
@@ -197,8 +199,8 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
-  text-decoration: underline;
+  color: #e76210;
+  text-decoration: none;
 }
 
 #intro .intro-info .btn-get-started,
@@ -216,7 +218,7 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
+  background: #e34e0e;
   border: 2px solid #007bff;
   color: #fff;
 }
@@ -228,11 +230,11 @@ h6 {
 }
 
 #intro .intro-info .btn-services {
-  border: 2px solid #fff;
+  border: 2px solid #007bff;
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
+  background: #f5450f;
   border-color: #007bff;
   color: #fff;
 }
@@ -264,7 +266,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #150101;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -275,7 +277,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #110101;
   text-decoration: none;
 }
 
@@ -591,14 +593,15 @@ h6 {
 }
 
 #services .box {
-  padding: 30px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 15px;
   margin: 0 10px 40px 10px;
-  background: #fff;
+  background: #c1e7eb;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
+  border: 10px solid rgb(238, 30, 37);
 }
 
 #services .box:hover {
@@ -878,7 +881,7 @@ h6 {
 #testimonials .testimonial-item .testimonial-img {
   width: 120px;
   border-radius: 50%;
-  border: 4px solid #fff;
+  border: 5px solid #6510dd;
   float: left;
 }
 
@@ -925,9 +928,9 @@ h6 {
 --------------------------------*/
 
 #team {
-  background: #fff;
+  background: #afade2;
   padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 12px 0px rgba(223, 191, 191, 0.1);
 }
 
 #team .member {
