@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #8fdbba;
+  background: #e15cc9;
   color: #444;
   
   font-family: 'Encode Sans', sans-serif;
@@ -32,6 +32,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  
 }
 
 h1,
@@ -40,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -175,7 +176,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url center bottom no-repeat;
+  
   background-size: cover;
   padding: 300px 0 120px 0;
 }
@@ -199,14 +200,14 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #e76210;
+  color: #302d2b;
   text-decoration: none;
 }
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-family: 'IBM Plex Mono', monospace;; 
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
   display: inline-block;
@@ -218,24 +219,24 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #e34e0e;
-  border: 2px solid #007bff;
+  background: #4f0c52;
+  border: 3px solid #000;
   color: #fff;
 }
 
 #intro .intro-info .btn-get-started:hover {
-  background: none;
+  background:none;
   border-color: #fff;
   color: #fff;
 }
 
 #intro .intro-info .btn-services {
-  border: 2px solid #007bff;
+  border: 2px solid #000;
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #f5450f;
-  border-color: #007bff;
+  background: #4f0c52;
+  border-color: #000;
   color: #fff;
 }
 
@@ -467,6 +468,7 @@ h6 {
 
 .section-header p {
   text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
@@ -519,7 +521,7 @@ h6 {
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #db6d32;
+  background: #d492d7;
   width: 64px;
   height: 64px;
   display: -webkit-box;
@@ -541,17 +543,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 5px solid #ed0826;
+  border: 5px solid #000;
   transition: all 0.5s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #6ce245;
+  color: #3b548b;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #6f0e8a;
+  background: #944059;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -573,10 +575,12 @@ h6 {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 #about .about-extra {
   padding-top: 60px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 #about .about-extra h4 {
@@ -596,12 +600,12 @@ h6 {
   padding: 20px;
   position: relative;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 25px;
   margin: 0 10px 40px 10px;
-  background: #c1e7eb;
+  background:#ebe9ef ;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
-  border: 10px solid rgb(238, 30, 37);
+  transition: all 0.5s ease-in-out;
+  border: 5px solid rgb(0, 0, 0);
 }
 
 #services .box:hover {
@@ -633,7 +637,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #c4a33f;
+  color: #fff;
 }
 
 #services .description {
@@ -722,6 +726,7 @@ h6 {
 --------------------------------*/
 
 #portfolio {
+  background: #d5d1d1;
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -740,7 +745,7 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #7886ca;
   border-radius: 50px;
   text-transform: uppercase;
   background: #ecf5ff;
@@ -750,7 +755,7 @@ h6 {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: #484648;
   color: #fff;
 }
 
@@ -870,6 +875,7 @@ h6 {
 --------------------------------*/
 
 #testimonials {
+  background: #a8a5a5;
   padding: 60px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -880,7 +886,7 @@ h6 {
 
 #testimonials .testimonial-item .testimonial-img {
   width: 120px;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 5px solid #6510dd;
   float: left;
 }
@@ -901,7 +907,7 @@ h6 {
 }
 
 #testimonials .testimonial-item p {
-  font-style: italic;
+  font-family:'IBM Plex Mono', monospace;
   margin: 0 0 15px 140px;
 }
 
@@ -916,12 +922,12 @@ h6 {
   margin: 0 5px;
   width: 12px;
   height: 12px;
-  border-radius: 50%;
+  border-radius: 20%;
   background-color: #ddd;
 }
 
 #testimonials .owl-dot.active {
-  background-color: #007bff;
+  background-color: #dd1717;
 }
 
 /* Team Section
@@ -1043,7 +1049,7 @@ h6 {
   border-right: 3px solid #28084d;
   border-bottom: 3px solid #61129d;
   overflow: hidden;
-  background: #4dd2b1;
+  background: #e15cc9;
   height: 160px;
 }
 
@@ -1060,6 +1066,7 @@ h6 {
 --------------------------------*/
 
 #contact {
+  background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
@@ -1166,15 +1173,15 @@ h6 {
 
 #contact .form input,
 #contact .form textarea {
-  border-radius: 20 px;
+  border-radius: 0;
   box-shadow: none;
   font-size: 20px;
    
-  background-color: #dcd598;
+  background-color: #e8a6f3;
 }
 
 #contact .form button[type="submit"] {
-  background: #e84f24;
+  background: #726572;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1194,12 +1201,13 @@ h6 {
 #footer {
   background: #64caab;
   padding: 0 0 30px 0;
-  color: #eee;
+  color: #000;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #be60e6;
+  background: #d7ceda;
   padding: 60px 0 30px 0;
 }
 
@@ -1212,7 +1220,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   color: #000;
   font-weight: 400;
   letter-spacing: 3px;
@@ -1223,8 +1231,8 @@ h6 {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #000;
 }
 
 #footer .footer-top .social-links a {
@@ -1250,7 +1258,7 @@ h6 {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1275,7 +1283,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+  color: #000;
 }
 
 #footer .footer-top .footer-links ul a:hover {
