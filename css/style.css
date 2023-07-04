@@ -160,10 +160,12 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  
-  max-height: 50px;
-  
+  max-height: 55px; 
 }
+
+
+
+
 
 .main-pages {
   margin-top: 60px;
@@ -267,18 +269,18 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #150101;
+  color: #6e2f93;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-family:'IBM Plex Mono', monospace ;
   font-weight: 500;
 }
 
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #110101;
+  color: #000;
   text-decoration: none;
 }
 
@@ -1177,10 +1179,11 @@ h6 {
   box-shadow: none;
   font-size: 20px;
    
-  background-color: #e8a6f3;
+  background-color: #e9e7e8;
 }
 
 #contact .form button[type="submit"] {
+  
   background: #726572;
   border: 0;
   border-radius: 20px;
@@ -1309,10 +1312,10 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
+  background: #29a3cf;
   border: 0;
   width: 35%;
-  padding: 6px 0;
+  padding: 5px 0;
   text-align: center;
   color: #fff;
   transition: 0.3s;
@@ -1320,7 +1323,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0062cc;
+  background: #dd14c2;
 }
 
 #footer .copyright {
