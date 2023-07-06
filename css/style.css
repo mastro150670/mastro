@@ -269,7 +269,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #6e2f93;
+  color: #960ce7;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 17px;
@@ -843,7 +843,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: #dd0909;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -857,7 +857,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #3395ff;
+  background: #ffe733;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -1177,7 +1177,7 @@ h6 {
 #contact .form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 20px;
+  font-size: 10px;
    
   background-color: #e9e7e8;
 }
@@ -1241,7 +1241,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #d5dbdc;
   color:#000;
   line-height: 1;
   padding: 8px 0;
